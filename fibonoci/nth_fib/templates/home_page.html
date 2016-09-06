@@ -2,13 +2,28 @@
 <html>
 <head>
 	<title></title>
-<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/style.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+
 </head>
-<body>
+<body ng-app="FibApp" ng-controller="fibControler">
+<div class="col-xs-12 col-sm-12 col-md-12 pad_top">
+<div class="col-xs-12 col-sm-6 col-md-6">
 <input class="textbox"type="text">
-<div id="wrapper">
-  <button class="btn-1 icon-forward"><span>Forward</span></button>
 </div>
+<div class="col-xs-12 col-sm-6 col-md-6">
+<button id="btn1" class=" icon-forward" ng-click="Aninatn()">
+<span><i class="glyphicon glyphicon-play glyf_play"></i></span>
+<span><i class="glyphicon glyphicon-play glyf_play"></i></span>
+
+</button>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="/static/js/controller.js"></script>
+
 </body>
 
 </html>

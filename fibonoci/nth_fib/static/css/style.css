@@ -4,10 +4,16 @@
     repeat-x; 
     border: 1px solid #999; 
     outline:0; 
-    height:25px; 
-    width: 275px; 
+    height:110px; 
+    width: 204px; 
+    float: right;
   } 
-
+.pad_top{padding-top: 200px;}
+.glyf_play
+{
+  font-size: 40px;
+  color: white;
+}
 
   
 ::-moz-focus-inner {
@@ -20,21 +26,17 @@
   border: 0;
 }
 
-#wrapper {
-  width: 800px;
-  margin: 20px auto;
-}
-
 button {
   font: inherit;
   color: inherit;
-  width: 300px;
+  width: 222px;
   text-transform: uppercase;
-  padding: 25px 80px;
-	margin: 15px 30px;
+  padding: 33px 80px;
+	margin: 0px 30px;
   background: #823aa0;
   overflow: hidden;
   position: relative;
+  float: left;
 }
 button:before {
   	left: 48%;
@@ -49,19 +51,7 @@ button > span {
 	transition: all 0.5s;
 }
 .icon-forward:before {
-  content: "→";
-  position: absolute;
-}
-.icon-backward:before {
-  content: "←";
-  position: absolute;
-}
-.icon-up:before {
-  content: "↑";
-  position: absolute;
-}
-.icon-down:before {
-  content: "↓";
+  content: "\e014";
   position: absolute;
 }
 .btn-1:before {
@@ -72,15 +62,5 @@ button > span {
 	left: 48%;
 }
 .btn-1:hover > span {
-	transform: translateX(300%);
-}
-.btn-2:before {
-	top: -100%;
-  transition: all 0.5s;
-}
-.btn-2:hover:before {
-	top: 30%;
-}
-.btn-2:hover > span {
-	transform: translateY(300%);
+	transform: translateX(400%);
 }
