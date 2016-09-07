@@ -37,6 +37,7 @@
 .txt_stl2{
   font-size: 25px;
   text-align: center;
+  padding: 25px;
 }
 .pad0{padding: 0;}
 .padright0{padding-right: 0;}
@@ -53,7 +54,8 @@
     font-family: serif;
     padding: 95px;
 }
-
+.blck_fnt{color: black;}
+.txt_algn_ctre{text-align: center;}
 * {
 	margin: 0;
 	padding: 0;
@@ -97,4 +99,10 @@ button > span {
 }
 .btn-1:hover > span {
 	transform: translateX(400%);
+}
+@media(max-width: 768px){
+  .head_bar{
+    font-size: 57px;
+    padding: 30px;
+  }
 }
