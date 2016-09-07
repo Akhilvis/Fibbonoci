@@ -51,7 +51,7 @@ button > span {
 	transition: all 0.5s;
 }
 .icon-forward:before {
-  content: "\e014";
+  content: "";
   position: absolute;
 }
 .btn-1:before {
@@ -63,4 +63,16 @@ button > span {
 }
 .btn-1:hover > span {
 	transform: translateX(400%);
+}
+.numberCircle {
+    border-radius: 70%;
+    width: 111px;
+    height: 111px;
+    padding: 36px;
+    
+    background: red;
+    border: 2px solid #666;
+    color: black;
+    text-align: center;
+    font: 32px Arial, sans-serif;
 }
