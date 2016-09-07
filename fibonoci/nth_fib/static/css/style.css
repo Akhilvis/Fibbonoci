@@ -7,6 +7,8 @@
     height:110px; 
     width: 204px; 
     float: right;
+    text-align: center;
+    font-size: 40px;
   } 
 .pad_top{padding-top: 200px;}
 .glyf_play
@@ -14,10 +16,42 @@
   font-size: 40px;
   color: white;
 }
+.page_bck{
+  background: lightgray;
+      background: red; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, #7be7d7 , #7be7d7,#7be7d7,#7ce6d8,#7edada,#7fcfdb,#7fcbdc,#80c4dd,#83bbdf,#85aee2); /* Standard syntax */
+}
 
-  
+}
+.fnt_famly{font-family: sans-serif;} 
 ::-moz-focus-inner {
   border:0;
+}
+.txt_stl1{
+  font-size: 37px;
+  text-align: center;
+}
+.txt_stl2{
+  font-size: 25px;
+  text-align: center;
+}
+.pad0{padding: 0;}
+.padright0{padding-right: 0;}
+.alert_msg{
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px
+}
+.head_bar{
+      text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: serif;
+    padding: 95px;
 }
 
 * {
@@ -27,22 +61,22 @@
 }
 
 button {
-  font: inherit;
-  color: inherit;
-  width: 222px;
+  width: 210px;
   text-transform: uppercase;
   padding: 33px 80px;
-	margin: 0px 30px;
-  background: #823aa0;
+  background:darkgray;
   overflow: hidden;
   position: relative;
   float: left;
+}
+button:hover{
+  background: #000000;
 }
 button:before {
   	left: 48%;
 }
 button:active {
-	background: #9053a9;
+	background: #000000;
   color: #823aa0;
 	top: 2px;
 }
@@ -63,16 +97,4 @@ button > span {
 }
 .btn-1:hover > span {
 	transform: translateX(400%);
-}
-.numberCircle {
-    border-radius: 70%;
-    width: 111px;
-    height: 111px;
-    padding: 36px;
-    
-    background: red;
-    border: 2px solid #666;
-    color: black;
-    text-align: center;
-    font: 32px Arial, sans-serif;
 }

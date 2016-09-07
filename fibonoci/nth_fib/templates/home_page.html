@@ -6,18 +6,23 @@
 <link rel="stylesheet" type="text/css" href="/static/css/style.css">
 
 </head>
-<body ng-app="FibApp" ng-controller="fibControler">
-<div class="col-xs-12 col-sm-12 col-md-12 pad_top">
-<div class="col-xs-12 col-sm-6 col-md-6">
+<body ng-app="FibApp" ng-controller="fibControler" class="page_bck">
+<div class="col-xs-12 col-sm-12 col-md-12">
+<div class="col-xs-12 col-sm-12 col-md-12 head_bar">
+	<span>Find Nth Fibonacci Number</span>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 alert_msg">{$alert$}</div>
+<div id="txtbox" class="col-xs-12 col-sm-6 col-md-6 padright0">
 <input class="textbox" type="text" ng-model="val">
 </div>
-<div class="col-xs-12 col-sm-6 col-md-6">
-<div id="counter" ng-if="countr" class="numberCircle"></div>
+<div class="col-xs-12 col-sm-6 col-md-6 pad0">
 <button id="btn1" class=" icon-forward" ng-click="Aninatn();send();	">
 <span><i class="glyphicon glyphicon-play glyf_play"></i></span>
 </button>
 </div>
-<div class="col-xs-12 col-sm-12 col-md-12 ">
+<div class="col-xs-12 col-sm-12 col-md-12 fnt_famly" ng-if="rslt_stat">
+<div class="txt_stl1">The {$val$}th term of Fibonacci sequence is {$nth_term$}</div>
+<div class="txt_stl2">Response Time is {$countdict.count_no$} milliseconds</div>
 </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
