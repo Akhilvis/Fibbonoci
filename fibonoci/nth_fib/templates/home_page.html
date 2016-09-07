@@ -9,11 +9,11 @@
 <body ng-app="FibApp" ng-controller="fibControler">
 <div class="col-xs-12 col-sm-12 col-md-12 pad_top">
 <div class="col-xs-12 col-sm-6 col-md-6">
-<input class="textbox"type="text">
+<input class="textbox" type="text" ng-model="val">
 </div>
 <div class="col-xs-12 col-sm-6 col-md-6">
 <div id="counter" ng-if="countr" class="numberCircle"></div>
-<button id="btn1" class=" icon-forward" ng-click="Aninatn()">
+<button id="btn1" class=" icon-forward" ng-click="Aninatn();send();	">
 <span><i class="glyphicon glyphicon-play glyf_play"></i></span>
 </button>
 </div>
