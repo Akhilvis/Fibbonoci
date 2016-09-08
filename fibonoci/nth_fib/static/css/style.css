@@ -19,9 +19,9 @@
 .page_bck{
   background: lightgray;
       background: red; /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+      background: -webkit-linear-gradient(left,#7be7d7 , #7be7d7,#7be7d7,#7ce6d8,#7edada,#7fcfdb,#7fcbdc,#80c4dd,#83bbdf,#85aee2); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, #7be7d7 , #7be7d7,#7be7d7,#7ce6d8,#7edada,#7fcfdb,#7fcbdc,#80c4dd,#83bbdf,#85aee2); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, #7be7d7 , #7be7d7,#7be7d7,#7ce6d8,#7edada,#7fcfdb,#7fcbdc,#80c4dd,#83bbdf,#85aee2); /* For Firefox 3.6 to 15 */
       background: linear-gradient(to right, #7be7d7 , #7be7d7,#7be7d7,#7ce6d8,#7edada,#7fcfdb,#7fcbdc,#80c4dd,#83bbdf,#85aee2); /* Standard syntax */
 }
 
